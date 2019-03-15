@@ -29,7 +29,6 @@ public class D2B {
 				return 0;
 			}
 		}
-		System.out.println();
 		
 		return Dez;
 	}
