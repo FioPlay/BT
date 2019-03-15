@@ -3,7 +3,7 @@ public class D2B {
 
 	public static void main(String[] args) {
 		
-		String B = "11";
+		String B = "1001 1001";
 		System.out.println(Bit2Dez(B));
 		
 	}
