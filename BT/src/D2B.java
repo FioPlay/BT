@@ -14,18 +14,20 @@ public class D2B {
 		int[] BinärZArray = new int[BinärArray.length];
 		
 		for (int i = 0; i < BinärZArray.length; i++) {
-			BinärZArray[i] = BinärArray[BinärArray.length - i]; 
+			BinärZArray[i] = (int)(BinärArray[BinärArray.length - (i + 1)]); 
 		}
 		
 		int Dez = 0;
 		
 		for (int i = 0; i < BinärZArray.length; i++) {
+			System.out.print(BinärZArray[i]);
 			if(BinärZArray[i] == 1) {
-				
-			}else if(BinärZArray[i] == 1) {
+				Dez += Math.pow(2, i);
+			}else if(BinärZArray[i] == 0) {
 				
 			}else {
-				
+				System.out.println("Input ist keine Binärzahl");
+				return 0;
 			}
 		}
 		
