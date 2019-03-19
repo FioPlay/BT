@@ -42,7 +42,7 @@ public class mayn {
 				e.printStackTrace();
 			}
 		}
-		return (Pin / (durchl*10000)) * 4;
+		return (Pin / (durchl * 10000)) * 4;
 	}
 
 }
