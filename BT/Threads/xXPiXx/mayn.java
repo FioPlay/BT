@@ -15,7 +15,7 @@ public class mayn {
 
 	private static double Piold() {
 		double Pi = 0;
-		int anz = 0, durchl = 100000000;
+		int anz = 0, durchl = 10000000;
 		while (anz < durchl) {
 			anz++;
 			if (Math.pow(Math.random() * 2 - 1, 2) + Math.pow(Math.random() * 2 - 1, 2) < 1) {
@@ -34,7 +34,7 @@ public class mayn {
 			t[i].start();
 		}
 		while (counter < durchl) {
-			durchl--;
+			//durchl--;
 			try {
 				Thread.sleep(10);
 			} catch (InterruptedException e) {
